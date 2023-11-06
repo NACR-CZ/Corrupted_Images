@@ -164,3 +164,4 @@ if __name__ == '__main__':
         print('Images have been found in total: ' + str(len(images_set)))
     corrupted = corrupted(images_set)
     jpg, png, tif, jp2, jxl = check_nums(images_set, corrupted, decomp_bomb, path, dirs_to_check)
+    
